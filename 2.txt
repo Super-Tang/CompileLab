@@ -1,0 +1,52 @@
+注释：//错误的测试样例
+if	 <IF,	 _ > 
+(	 <SLP,	 _ > 
+i	 <IDN,	 i>
+<=	 <LEQ,	 _ > 
+错误的常数格式：5.)
+非法字符：。
+{	 <LP,	 _ > 
+for	 <FOR,	 _ > 
+(	 <SLP,	 _ > 
+int	 <INT,	 _ > 
+j	 <IDN,	 j>
+=	 <EQ,	 _ > 
+0	 <CONST,	 0> 
+;	 <SEM,	 _ > 
+j	 <IDN,	 j>
+<=	 <LEQ,	 _ > 
+10	 <CONST,	 10> 
+;	 <SEM,	 _ > 
+j	 <IDN,	 j>
+++	 <INC,	 _ > 
+)	 <RLP,	 _ > 
+{	 <LP,	 _ > 
+if	 <IF,	 _ > 
+(	 <SLP,	 _ > 
+x	 <IDN,	 x>
+==	 <CEQ,	 _ > 
+5	 <CONST,	 5> 
+&&	 <LAND,	 _ > 
+y	 <IDN,	 y>
+<=	 <LEQ,	 _ > 
+7	 <CONST,	 7> 
+)	 <RLP,	 _ > 
+{	 <LP,	 _ > 
+int	 <INT,	 _ > 
+number	 <IDN,	 number>
+=	 <EQ,	 _ > 
+100	 <CONST,	 100> 
+;	 <SEM,	 _ > 
+}	 <RP,	 _ > 
+}	 <RP,	 _ > 
+}	 <RP,	 _ > 
+struct	 <STRUCT,	 _ > 
+{	 <LP,	 _ > 
+int	 <INT,	 _ > 
+x	 <IDN,	 x>
+;	 <SEM,	 _ > 
+int	 <INT,	 _ > 
+y	 <IDN,	 y>
+;	 <SEM,	 _ > 
+}	 <RP,	 _ > 
+$	 <$,	 _ > 

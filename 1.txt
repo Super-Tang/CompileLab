@@ -1,0 +1,12 @@
+if(i<=5.) 。{    //错误的测试样例
+for(int j=0; j<=10; j++){
+   if(x == 5 && y <= 7){
+   int number = 100;
+   }
+}
+}
+
+struct{
+int x;
+int y;
+}

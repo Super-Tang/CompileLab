@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="grammar.GrammarUI"
+            prefHeight="600.0" prefWidth="800.0">
+    <HBox prefHeight="20">
+        <Button fx:id="next" text="下一条" />
+        <Button fx:id="all" text="跳到最后" />
+    </HBox>
+
+    <TextArea fx:id="table" layoutX="30" layoutY="30" prefWidth="320" prefHeight="280" editable="false"/>
+    <TableView fx:id="generate" layoutY="320" layoutX="30" prefHeight="200" prefWidth="320" />
+
+    <TableView fx:id="analyse" layoutX="380" layoutY="30" prefHeight="280" prefWidth="370" />
+    <TableView fx:id="stack" layoutX="380" layoutY="320" prefWidth="370" prefHeight="200" />
+
+
+    <TextField fx:id="line" layoutX="30" layoutY="540" editable="false" prefWidth="720" prefHeight="50" />
+</AnchorPane>
